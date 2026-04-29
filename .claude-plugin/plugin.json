@@ -1,0 +1,9 @@
+{
+  "name": "psyskills",
+  "description": "Clinical psychology skills for psychologists — conceptualization, goal-setting, strategy, supervision",
+  "version": "0.1.0",
+  "author": {
+    "name": "psyskills"
+  },
+  "keywords": ["psychology", "cbt", "orct", "supervision", "conceptualization"]
+}
