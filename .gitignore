@@ -3,7 +3,10 @@ Psychodemia.md
 *.pdf
 
 # Claude Code local settings
-.claude/settings.local.json
+.claude/
+
+# Internal planning docs
+docs/
 
 # Client files — private clinical data
 clients/*
