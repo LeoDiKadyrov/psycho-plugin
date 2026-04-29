@@ -1,0 +1,14 @@
+# School/personal materials — not for public repo
+Psychodemia.md
+*.pdf
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Client files — private clinical data
+clients/*
+!clients/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
