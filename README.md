@@ -246,3 +246,5 @@ The skills follow the school's clinical framework:
 ## License
 
 MIT — see [LICENSE](LICENSE)
+
+https://boosty.to/leodikadyrov
