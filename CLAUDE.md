@@ -1,5 +1,53 @@
 # psyskills — Development Guidelines
 
+## Quick Start
+
+```bash
+# Install locally
+claude plugin install /path/to/psyskills
+
+# Install from GitHub
+claude plugin install https://github.com/LeoDiKadyrov/psycho-plugin
+```
+
+## Skills & Usage
+
+| Skill | Command | Purpose |
+|-|-|-|
+| psy:conceptualize | `/psy:conceptualize <client> [transcript] [modality]` | Session transcript → BASIC ID update |
+| psy:goals | `/psy:goals <client>` | Goal-setting via 6 criteria |
+| psy:strategy | `/psy:strategy <client>` | Session strategy (4-step) |
+| psy:supervise | `/psy:supervise <client>` | Supervision on 4 axes /40 |
+
+## Client Files
+
+Each client lives in `clients/<name>.md`. Create from template:
+
+```bash
+cp templates/client-template.md clients/имя.md
+```
+
+Required frontmatter:
+
+```yaml
+---
+modality: cbt   # or orct
+name: имя_клиента
+created: YYYY-MM-DD
+---
+```
+
+## Clinical Reference
+
+`references/` contains authoritative clinical source material:
+- `lazarus-basic-id.md` — BASIC ID model (Lazarus)
+- `cbt.md` — CBT framework, goal criteria, session structure
+- `orct.md` — SFBT/ORCT principles
+
+`Psychodemia.md` is the upstream source (gitignored — obtain separately from the school).
+
+
+
 ## Ethical Hard Constraints (AIMHC Framework)
 
 These constraints are non-negotiable. They apply to all features, prompts, and skill logic.
